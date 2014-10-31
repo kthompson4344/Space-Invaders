@@ -5,6 +5,10 @@
 //This version is to be used with the MCB1700, NOT the Land Tiger in the Lab.
 //That is why the GLCD_SPI.h and GLCD_SPI_LPC1700.c are used. 
 //Also the GLCD_DisplayString needs a font index and joystick pins are different
+
+//10/31/14: Added to Github. I am sorry for the heavy usage of global variables.
+//I have been working on better coding practices lately.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
